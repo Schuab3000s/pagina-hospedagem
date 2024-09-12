@@ -4,11 +4,11 @@ Este projeto é uma página de reserva de hotel simples, desenvolvida com HTML5,
 
 ## Funcionalidades
 
-Layout responsivo utilizando Bootstrap 5.
-Formulário de reserva com campos como nome, e-mail, datas de entrada e saída, número de adultos e crianças.
-Exibição de um modal de confirmação de reserva ao submeter o formulário.
-Ícones estilizados usando Bootstrap Icons.
-Seção de quartos e benefícios, destacando as vantagens de se hospedar no hotel.
+Layout responsivo utilizando Bootstrap 5.<br>
+Formulário de reserva com campos como nome, e-mail, datas de entrada e saída, número de adultos e crianças.<br>
+Exibição de um modal de confirmação de reserva ao submeter o formulário.<br>
+Ícones estilizados usando Font Aweson.<br>
+Seção de quartos e benefícios, destacando as vantagens de se hospedar no hotel.<br>
 
 ## Tecnologias Utilizadas
 
@@ -40,7 +40,10 @@ Aqui está um esboço visual básico do projeto:
 
 Exemplo de Captura de Tela
 Aqui está uma captura de tela do modal de confirmação exibido após o envio do formulário:
-![Captura de Tela](images/print.png)
+<div align="center">
+  <img src="image/print.png" alt="Captura de Tela" width="400px">
+</div>
+
 
 ## Contribuições
 
@@ -51,10 +54,3 @@ Sinta-se à vontade para contribuir com melhorias, novos recursos ou correções
 3. Envie suas alterações: git commit -m 'Adiciona nova feature'.
 4. Envie para a branch principal: git push origin feature/nova-feature.
 5. Abra um Pull Request.
-
-## Licença
-
-Este projeto está licenciado sob a MIT License.
-
-
-
