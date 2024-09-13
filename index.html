@@ -75,7 +75,7 @@
     <section class="bg-light py-5">
         <div class="container">
             <h3 class="text-center mb-4">Faça Sua Reserva</h3>
-            <form onsubmit="return mostrarAlerta();">
+            <form id="reservaForm">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="mb-3">
@@ -93,14 +93,14 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="mb-3">
-                            <label for="data-entrada" class="form-label">Data de entrada</label>
-                            <input type="date" class="form-control" id="data-entrada" required>
+                            <label for="dataEntrada" class="form-label">Data de entrada</label>
+                            <input type="date" class="form-control" id="dataEntrada" required>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="mb-3">
-                            <label for="data-saida" class="form-label">Data de saída</label>
-                            <input type="date" class="form-control" id="data-saida" required>
+                            <label for="dataSaida" class="form-label">Data de saída</label>
+                            <input type="date" class="form-control" id="dataSaida" required>
                         </div>
                     </div>
                 </div>
